@@ -1,0 +1,120 @@
+[
+  {
+    "name": "Home Appliances Repair",
+    "slots": [
+      "08.00 AM",
+      "09.00 AM",
+      "10.00 AM",
+      "11.00 AM",
+      "12.00 PM",
+      "1.00 PM",
+      "2.00 PM",
+      "3.00 PM",
+      "4.00 PM",
+      "5.00 PM",
+      "6.00 PM",
+      "7.00 PM"
+    ],
+    "img1": "https://d7gh5vrfihrl.cloudfront.net/website/membership/services/apr.svg",
+    "img2": "https://d7gh5vrfihrl.cloudfront.net/website/protection/services/washer-big.png",
+    "fees": "3000 BDT"
+  },
+  {
+    "name": "TV Mounting",
+    "slots": [
+      "08.00 AM",
+      "09.00 AM",
+      "10.00 AM",
+      "11.00 AM",
+      "12.00 PM",
+      "1.00 PM",
+      "2.00 PM",
+      "3.00 PM",
+      "4.00 PM",
+      "5.00 PM",
+      "6.00 PM",
+      "7.00 PM",
+      "8.00 PM",
+      "9.00 PM"
+    ],
+    "img1": "https://d7gh5vrfihrl.cloudfront.net/website/membership/services/tvi.svg",
+    "img2": "https://d7gh5vrfihrl.cloudfront.net/website/protection/services/tv-big.png",
+    "fees": "1200 BDT"
+  },
+  {
+    "name": "Hadyman Services",
+    "slots": [
+      "08.00 AM",
+      "09.00 AM",
+      "10.00 AM",
+      "11.00 AM",
+      "12.00 PM",
+      "1.00 PM",
+      "2.00 PM",
+      "3.00 PM",
+      "4.00 PM",
+      "5.00 PM",
+      "6.00 PM",
+      "7.00 PM"
+    ],
+    "img1": "https://d7gh5vrfihrl.cloudfront.net/website/membership/services/hdm.svg",
+    "img2": "https://d7gh5vrfihrl.cloudfront.net/website/protection/services/tool-box-big.png",
+    "fees": "1000 BDT"
+  },
+  {
+    "name": "iPhone Repair",
+    "slots": [
+      "08.00 AM",
+      "09.00 AM",
+      "10.00 AM",
+      "11.00 AM",
+      "12.00 PM",
+      "1.00 PM",
+      "2.00 PM",
+      "3.00 PM",
+      "4.00 PM",
+      "5.00 PM",
+      "6.00 PM"
+    ],
+    "img1": "https://d7gh5vrfihrl.cloudfront.net/website/membership/services/mdr.svg",
+    "img2": "https://d7gh5vrfihrl.cloudfront.net/website/protection/services/iphone-big.png",
+    "fees": "1000 BDT"
+  },
+  {
+    "name": "Plumbing",
+    "slots": [
+      "08.00 AM",
+      "09.00 AM",
+      "10.00 AM",
+      "11.00 AM",
+      "12.00 PM",
+      "1.00 PM",
+      "2.00 PM",
+      "3.00 PM",
+      "4.00 PM",
+      "5.00 PM",
+      "6.00 PM",
+      "7.00 PM"
+    ],
+    "img1": "https://d7gh5vrfihrl.cloudfront.net/website/membership/services/plumbing.svg",
+    "img2": "https://d7gh5vrfihrl.cloudfront.net/website/protection/services/plumbing-big.png",
+    "fees": "1500 BDT"
+  },
+  {
+    "name": "Garage Door",
+    "slots": [
+      "08.00 AM",
+      "09.00 AM",
+      "10.00 AM",
+      "11.00 AM",
+      "12.00 PM",
+      "1.00 PM",
+      "2.00 PM",
+      "3.00 PM",
+      "4.00 PM"
+    ],
+    "img1": "https://d7gh5vrfihrl.cloudfront.net/website/membership/services/garage.svg",
+    "img2": "https://d7gh5vrfihrl.cloudfront.net/website/protection/services/garage-big.png",
+    "fees": "3500 BDT"
+  }
+]

@@ -1,0 +1,8 @@
+.googleBtn{
+    border: 1px solid #0060E0 !important;
+
+}
+
+.googleBtn:hover{
+    background-color: #0060E0!important;
+}

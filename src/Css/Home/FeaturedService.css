@@ -1,0 +1,26 @@
+.featuredService{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featuredService_features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.featuredService_feature{
+    width: 30%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featuredService_feature p{
+    text-align: center;
+}
+.featuredService_feature div{
+    height: 95px;
+}

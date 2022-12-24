@@ -1,0 +1,16 @@
+.hader-main{
+    background-image: url('../../../img/homePageBanar.svg');
+    background-size: cover;
+    height: 700px;
+    background-position: center-bottom;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    display: flex;
+}
+.header-btn {
+    background-color: #0060E0;
+    color: #fff;
+}
+.hader-main-contents{
+    margin-top: 140px;
+}

@@ -1,0 +1,14 @@
+.service-style{
+    border: 1px solid rgba(218,220,228,.06);
+    padding: 18% 2%;
+    margin: 17px 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 14px 0 rgb(0 0 0 / 10%);
+    
+    
+}
+
+.service-link{
+    padding: 0;
+    
+}

@@ -1,0 +1,9 @@
+.order-card{
+    box-shadow: 0 3px 20px 0 rgb(131 134 163 / 12%);
+    padding: 15px 35px;
+    border-radius: 10px;
+}
+
+.order-card h3, p, h6{
+    color: #46475c;
+}
