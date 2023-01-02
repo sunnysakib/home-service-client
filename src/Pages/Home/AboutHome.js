@@ -5,7 +5,7 @@ const AboutHome = () => {
   return (
     <section className="aboutHome max-w-7xl mx-auto px-12 flex w-full">
       <div className="w-6/12">
-        <h1 className="text-3xl font-bold mb-9">About<span style={{color: '#0060E0'}}> HomeService</span></h1>
+        <h1 className="text-3xl font-bold mb-9" style={{color: '#000'}}>About<span style={{color: '#0060E0'}}> HomeService</span></h1>
         <p style={{color: '#414B63'}}>
           Home service is the leading on-demand professional services provider
           of Bangladesh. 

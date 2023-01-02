@@ -9,7 +9,7 @@ const About = () => {
   return (
     <>
       <Navbar />
-      <div className="flex w-100 max-w-7xl mx-auto px-12 mt-20">
+      <div className="flex w-100 max-w-7xl mx-auto px-12 mt-28">
         <div className="w-2/5">
           <h1 className="text-3xl font-bold text-center">
             OUR <span style={{ color: "#0060E0" }}>STORY</span>

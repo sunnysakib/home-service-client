@@ -22,8 +22,9 @@ const Navbar = ({navbarType, ...otherProps}) => {
 
     const menuItems = <>
         <li><Link className="btn-outline text-bold rounded-md menuItem" to="/">Home</Link></li>
-        <li><Link className="btn-outline rounded-md menuItem" to="/appointment">Services</Link></li>
-        <li><Link  className="btn-outline rounded-md menuItem" to="/blood-bank">How It Works</Link></li>
+        <li><Link className="btn-outline rounded-md menuItem" to="/services">Services</Link></li>
+        <li><Link className="btn-outline rounded-md menuItem" to="/pricing">Pricing</Link></li>
+        <li><Link  className="btn-outline rounded-md menuItem" to="/">How It Works</Link></li>
         <li><Link className=" btn-outline rounded-md menuItem" to="/about">About</Link></li>
         <li><Link className="btn-outline rounded-md menuItem" to="/contact">Contact</Link></li>
         <li>{user ? <LoginImage photoURL = {user.photoURL}/>:<Link  className="btn-outline menuItem rounded-md" to="/login">Login </Link>}</li>

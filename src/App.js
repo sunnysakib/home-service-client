@@ -21,6 +21,7 @@ import Helpline from "./Pages/Helpline/Helpline";
 import ContactPage from "./Pages/ContactPage/ContactPage";
 import Booking from "./Component/Booking/Booking";
 import { useState } from "react";
+import Pricing from "./Pages/Pricing/Pricing";
 function App() {
   const [order,setOrder]= useState({});
   const [date, setDate] = useState(new Date());
@@ -30,12 +31,13 @@ function App() {
     <div> 
       <Routes>
         <Route path="/" element={<Home date={date}  setOrder={setOrder}/>} />
+        <Route path="pricing" element={<Pricing />}></Route>
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<ContactPage/>} />
         <Route path="/helpline" element={<Helpline/>} />
 
         <Route
-          path="/appointment"
+          path="/services"
           element={
             <RequireAuth>
               <ServicesPage date={date} setDate={setDate}/>

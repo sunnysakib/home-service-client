@@ -5,7 +5,7 @@ import service_icon from "../../img/24-hour-icon 1.png"
 const FeaturedService = () => {
   return (
     <div className="featuredService mt-32 mb-44">
-      <h1 className="featuredService_title text-3xl font-bold" style={{ color: "#46475c" }}>How Home Service Works</h1>
+      <h1 className="featuredService_title text-4xl font-bold" style={{ color: "#46475c" }}>How Home Service Works</h1>
       <div className="featuredService_features mt-16">
         <div className="featuredService_feature">
           <div>

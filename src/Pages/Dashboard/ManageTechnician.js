@@ -19,7 +19,7 @@ const ManageTechnician = () => {
 
     return (
         <div className='mr-5'>
-            <h2 className="text-2xl">Doctors: {technicians.length}</h2>
+            <h2 className="text-2xl mb-2"> Total Technicians: {technicians.length}</h2>
             <div class="overflow-x-auto">
                 <table class="table w-full">
                     <thead>

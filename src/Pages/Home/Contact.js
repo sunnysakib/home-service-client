@@ -8,7 +8,7 @@ const Contact = () => {
         background:`url(${appointment})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'
     }} className='px-10 py-14'>
       <div className='text-center pb-14 text-white'>
-        <p className='text-4xl font-bold bg-clip-text bg-gradient-to-br from-accent to-secondary'>
+        <p className='text-4xl font-bold bg-clip-text bg-gradient-to-br from-accent to-secondary' style={{color: '#000'}}>
           Contact Us
         </p>
         <h1 className='text-3xl'>Stay connected with us</h1>

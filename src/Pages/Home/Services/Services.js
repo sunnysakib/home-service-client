@@ -49,7 +49,7 @@ const Services = ({setOrder, date}) => {
   return (
     <section className="mt-20 pt-5">
       <div className="text-center">
-        <h2 className="text-3xl font-bold" style={{ color: "#46475c" }}>
+        <h2 className="text-4xl font-bold" style={{ color: "#46475c" }}>
           OUR SERVICES
         </h2>
         <h4 className="text-lg font-semibold mb-14" style={{ color: "#46475c" }}>

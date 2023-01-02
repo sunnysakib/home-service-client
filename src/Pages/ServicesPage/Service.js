@@ -17,7 +17,7 @@ const Service = ({ service, setServiceBooking }) => {
             htmlFor="booking-modal"
             disabled={slots.length === 0}
             onClick={() => setServiceBooking(service)}
-            className="btn btn-sm btn-secondary text-white uppercase bg-gradient-to-r from-secondary to-primary border-none"
+            className="btn btn-sm btn-primary text-white uppercase  border-none"
           >
             Book Now
           </label>
