@@ -7,7 +7,7 @@ import TechnicianRow from './TechnicianRow';
 const ManageTechnician = () => {
     const [deletingTechnician, setDeletingTechnician] = useState(null);
 
-    const { data: technicians, isLoading, refetch } = useQuery('technicians', () => fetch('http://localhost:5000/technician', {
+    const { data: technicians, isLoading, refetch } = useQuery('technicians', () => fetch('https://home-service-4vkz.onrender.com/technician', {
         headers: {
             authorization: `Bearer ${localStorage.getItem('accessToken')}`
         }

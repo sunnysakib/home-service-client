@@ -13,7 +13,7 @@
 //     const { _id, fees, customerEmail, customerName } = appointment;
 
 //     useEffect(() => {
-//         fetch('http://localhost:5000/create-payment-intent', {
+//         fetch('https://home-service-4vkz.onrender.com/create-payment-intent', {
 //             method: 'POST',
 //             headers: {
 //                 'content-type': 'application/json',
@@ -80,7 +80,7 @@
 //                 appointment: _id,
 //                 transactionId: paymentIntent.id
 //             }
-//             fetch(`http://localhost:5000/booking/${_id}`, {
+//             fetch(`https://home-service-4vkz.onrender.com/booking/${_id}`, {
 //                 method: 'PATCH',
 //                 headers: {
 //                     'content-type': 'application/json',

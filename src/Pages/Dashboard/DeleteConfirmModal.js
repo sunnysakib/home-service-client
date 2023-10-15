@@ -4,7 +4,7 @@ import { toast } from 'react-toastify';
 const DeleteConfirmModal = ({deletingTechnician, refetch, setDeletingTechnician}) => {
     const {name, email} = deletingTechnician;
     const handleDelete = () => {
-        fetch(`http://localhost:5000/technician/${email}`, {
+        fetch(`https://home-service-4vkz.onrender.com/technician/${email}`, {
             method: 'DELETE',
             headers: {
                 authorization: `Bearer ${localStorage.getItem('accessToken')}`

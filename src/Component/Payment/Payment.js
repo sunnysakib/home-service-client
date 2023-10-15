@@ -12,7 +12,7 @@
 // const Payment = () =>{
 //     const priceForStripe = price * 100;
 //     const { id } = useParams();
-//     const url = `http://localhost:5000/booking/${id}`;
+//     const url = `https://home-service-4vkz.onrender.com/booking/${id}`;
 
 //     return(
 //         <StripeCheckout
@@ -33,7 +33,7 @@
 
 // const Payment = () => {
 //     const { id } = useParams();
-//     const url = `http://localhost:5000/booking/${id}`;
+//     const url = `https://home-service-4vkz.onrender.com/booking/${id}`;
 
 //     const { data: appointment, isLoading } = useQuery(['booking', id], () => fetch(url, {
 //         method: 'GET',

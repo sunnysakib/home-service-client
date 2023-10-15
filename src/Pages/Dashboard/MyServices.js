@@ -18,7 +18,7 @@ const MyServices = () => {
 
     useEffect(() => {
         if (user) {
-            fetch(`http://localhost:5000/booking?customerEmail=${user.email}`,{
+            fetch(`https://home-service-4vkz.onrender.com/booking?customerEmail=${user.email}`,{
                 method: 'GET',
                 headers: {
                     'authorization': `Bearer ${localStorage.getItem('accessToken')}`

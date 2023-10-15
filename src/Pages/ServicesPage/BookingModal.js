@@ -24,7 +24,7 @@ const BookingModal = ({ date, serviceBooking, setServiceBooking, refetch }) => {
             phone: event.target.phone.value
         }
 
-        fetch('http://localhost:5000/booking', {
+        fetch('https://home-service-4vkz.onrender.com/booking', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

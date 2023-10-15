@@ -7,7 +7,7 @@ import Loading from '../Shared/Loading';
 const AddDoctor = () => {
     const { register, formState: { errors }, handleSubmit, reset } = useForm();
 
-    const { data: services, isLoading } = useQuery('services', () => fetch('http://localhost:5000/service').then(res => res.json()))
+    const { data: services, isLoading } = useQuery('services', () => fetch('https://home-service-4vkz.onrender.com/service').then(res => res.json()))
     const imageStorageKey='83d212ddc9482b93542178c210fd2a52';
     const onSubmit = async data => {
         const image = data.image[0];
@@ -29,7 +29,7 @@ const AddDoctor = () => {
                     img: img
                 }
                 // send to database 
-                fetch('http://localhost:5000/technician', {
+                fetch('https://home-service-4vkz.onrender.com/technician', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json',
